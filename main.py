@@ -6,10 +6,11 @@
 
 def isleapyear(year):
     # Use a breakpoint in the code line below to debug your script.
-    if ((year % 4 == 0 and year % 100 != 0) or year % 400 == 0):
-        print("jest git")
-    else:
-        print("nie jest git")
+    checkifleap = ((year % 4 == 0 and year % 100 != 0) or year % 400 == 0)
+
+    print("rok ",year,"jest przestępny ",checkifleap)
+
+    return checkifleap
 
 
 # Press the green button in the gutter to run the script.
